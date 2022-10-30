@@ -1,0 +1,24 @@
+class CRectangle
+{
+   int width;
+   int height;
+
+   public CRectangle(int w,int h)
+   {
+     width=w;
+     height=h;
+      System.out.println("constructor CRectangle(int w,int h) called");
+   }
+   public CRectangle()
+   {
+      this(10,8);
+      System.out.println("constructor CRectangle() called");
+   }
+}
+
+public class dssa
+{
+   public static void main(String args[])
+   {
+   }
+}
